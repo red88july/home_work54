@@ -20,7 +20,7 @@ const Square: React.FC<PropsForSquare> = ({ hasItem, clicked, onClick }) => {
     return (
         <div className='square-container' onClick={handleClick}>
             <div className={`square ${clicked ? 'hidden-square' : ''}`}></div>
-            {symbolVisible && hasItem && <span className='symbol'>$</span>}
+            {symbolVisible && hasItem && <span>$</span>}
         </div>
     );
 };
