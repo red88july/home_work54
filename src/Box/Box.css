@@ -1,0 +1,9 @@
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #808080;
+    padding: 10px;
+    border-radius: 10px;
+}
